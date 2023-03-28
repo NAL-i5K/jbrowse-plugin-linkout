@@ -1,4 +1,6 @@
-# jbrowse-plugin-template
+![Integration](https://github.com/Chi-HsienChang/jbrowse-plugin-linkout/workflows/Integration/badge.svg?branch=main)
+
+# jbrowse-plugin-linkout
 
 > Template to quickly start a new JBrowse plugin
 

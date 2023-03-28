@@ -7,9 +7,13 @@ import {
   ReactComponent as HelloViewReactComponent,
   stateModel as helloViewStateModel,
 } from './HelloView'
+import { getSession } from '@jbrowse/core/util'
+import { string } from 'mobx-state-tree/dist/internal'
+import console from 'console'
 
-export default class TemplatePlugin extends Plugin {
-  name = 'TemplatePlugin'
+
+export default class TestPlugin extends Plugin {
+  name = "Test"
   version = version
 
   install(pluginManager: PluginManager) {
@@ -22,7 +26,27 @@ export default class TemplatePlugin extends Plugin {
     })
   }
 
+
+  
+  
   configure(pluginManager: PluginManager) {
+
+    pluginManager.jexl.addFunction('linkout_GeneID', (feature: any) => {
+      let dbxref = JSON.stringify(feature.dbxref);
+      let gene = dbxref.split(':')[1].split('"')[0];
+      return '<a href=https://www.ncbi.nlm.nih.gov/gene/'+gene+'>'+feature.dbxref+'</a>'
+    })
+
+    pluginManager.jexl.addFunction('linkout_Genbank', (feature: any) => {
+      let dbxref = feature.dbxref
+        ?.find((f: any) => f.startsWith('Genbank:'))
+        ?.replace('Genbank:', '')
+      if (!dbxref) {
+        return feature.name 
+      }
+      return `<a href=https://www.ncbi.nlm.nih.gov/nuccore/?term=${dbxref}>Genbank:${feature.name||dbxref}</a>`
+    })
+
     if (isAbstractMenuManager(pluginManager.rootModel)) {
       pluginManager.rootModel.appendToMenu('Add', {
         label: 'Hello View',
@@ -32,4 +56,5 @@ export default class TemplatePlugin extends Plugin {
       })
     }
   }
+
 }

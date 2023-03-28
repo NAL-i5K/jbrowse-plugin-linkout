@@ -1,8 +1,8 @@
 {
   "plugins": [
     {
-      "name": "Template",
-      "url": "http://localhost:9000/dist/jbrowse-plugin-template.umd.development.js"
+      "name": "Linkout",
+      "url": "http://localhost:9000/dist/jbrowse-plugin-linkout.umd.development.js"
     }
   ]
 }
