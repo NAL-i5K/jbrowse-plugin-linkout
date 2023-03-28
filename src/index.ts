@@ -13,7 +13,7 @@ import console from 'console'
 
 
 export default class TestPlugin extends Plugin {
-  name = "Test"
+  name = "Linkout"
   version = version
 
   install(pluginManager: PluginManager) {
