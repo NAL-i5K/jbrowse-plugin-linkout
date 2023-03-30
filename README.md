@@ -135,7 +135,7 @@ A JBrowse Web config using this plugin would look like this:
 ```
 
 You can also use a specific version in unpkg, such as
-`https://unpkg.com/jbrowse-plugin-my-project@1.0.1/dist/jbrowse-plugin-my-project.umd.production.min.js`
+`https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js`
 
 ### TypeScript vs. JavaScript
 
