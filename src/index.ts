@@ -25,6 +25,9 @@ export default class TestPlugin extends Plugin {
       })
     })
   }
+
+
+  
   
   configure(pluginManager: PluginManager) {
 
