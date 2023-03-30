@@ -29,6 +29,7 @@ export default class TestPlugin extends Plugin {
   configure(pluginManager: PluginManager) {
 
     pluginManager.jexl.addFunction('linkout', (feature: any) => {
+      
       if (!feature.dbxref) {
         return ''
       }
@@ -48,6 +49,7 @@ export default class TestPlugin extends Plugin {
       }
       return dbxref
       })
+
     })
 
     if (isAbstractMenuManager(pluginManager.rootModel)) {
