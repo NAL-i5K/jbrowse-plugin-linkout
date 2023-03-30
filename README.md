@@ -127,8 +127,8 @@ A JBrowse Web config using this plugin would look like this:
 {
   "plugins": [
     {
-      "name": "MyProject",
-      "url": "https://unpkg.com/jbrowse-plugin-my-project/dist/jbrowse-plugin-my-project.umd.production.min.js"
+      "name": "Linkout",
+      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
     }
   ]
 }
