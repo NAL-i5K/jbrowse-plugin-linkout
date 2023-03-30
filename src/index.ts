@@ -25,26 +25,29 @@ export default class TestPlugin extends Plugin {
       })
     })
   }
-
-
-  
   
   configure(pluginManager: PluginManager) {
 
-    pluginManager.jexl.addFunction('linkout_GeneID', (feature: any) => {
-      let dbxref = JSON.stringify(feature.dbxref);
-      let gene = dbxref.split(':')[1].split('"')[0];
-      return '<a href=https://www.ncbi.nlm.nih.gov/gene/'+gene+'>'+feature.dbxref+'</a>'
-    })
-
-    pluginManager.jexl.addFunction('linkout_Genbank', (feature: any) => {
-      let dbxref = feature.dbxref
-        ?.find((f: any) => f.startsWith('Genbank:'))
-        ?.replace('Genbank:', '')
-      if (!dbxref) {
-        return feature.name 
+    pluginManager.jexl.addFunction('linkout', (feature: any) => {
+      if (!feature.dbxref) {
+        return ''
       }
-      return `<a href=https://www.ncbi.nlm.nih.gov/nuccore/?term=${dbxref}>Genbank:${feature.name||dbxref}</a>`
+
+      const dbxrefs = Array.isArray(feature.dbxref)
+        ? feature.dbxref
+        : [feature.dbxref]
+
+      return dbxrefs.map((dbxref: any) => {
+      if (dbxref.startsWith('Genbank:')) {
+        const ref = dbxref.replace('Genbank:', '')
+        return `<a href=https://www.ncbi.nlm.nih.gov/nuccore/?term=${ref}>${dbxref}</a>`
+      }
+      else if (dbxref.startsWith('GeneID:')) {
+        const ref = dbxref.replace('GeneID:', '')
+        return `<a href=https://www.ncbi.nlm.nih.gov/gene/?term=${ref}>${dbxref}</a>`
+      }
+      return dbxref
+      })
     })
 
     if (isAbstractMenuManager(pluginManager.rootModel)) {
