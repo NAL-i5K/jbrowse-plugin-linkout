@@ -31,29 +31,35 @@ export default class TestPlugin extends Plugin {
   
   configure(pluginManager: PluginManager) {
 
-    pluginManager.jexl.addFunction('linkout', (feature: any) => {
+    pluginManager.jexl.addFunction('linkout', (type: string[], url: string[], feature: any)=> {
+      
       
       if (!feature.dbxref) {
         return ''
       }
-
+      
       const dbxrefs = Array.isArray(feature.dbxref)
         ? feature.dbxref
         : [feature.dbxref]
 
       return dbxrefs.map((dbxref: any) => {
-      if (dbxref.startsWith('Genbank:')) {
-        const ref = dbxref.replace('Genbank:', '')
-        return `<a href=https://www.ncbi.nlm.nih.gov/nuccore/?term=${ref}>${dbxref}</a>`
-      }
-      else if (dbxref.startsWith('GeneID:')) {
-        const ref = dbxref.replace('GeneID:', '')
-        return `<a href=https://www.ncbi.nlm.nih.gov/gene/?term=${ref}>${dbxref}</a>`
-      }
+      let i = 0
+      while( i < type.length){
+        let j = 0 
+        while( j < type.length){
+          if (dbxref.startsWith(type[j])) {
+            const ref = dbxref.replace(type[j], '')
+            return `<a href=${url[j]}${ref}>${dbxref}</a>` 
+          }
+          j = j + 1
+        }
+        i = i + 1
       return dbxref
+      }
       })
 
     })
+   
 
     if (isAbstractMenuManager(pluginManager.rootModel)) {
       pluginManager.rootModel.appendToMenu('Add', {
