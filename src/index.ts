@@ -31,13 +31,10 @@ export default class TestPlugin extends Plugin {
   
   configure(pluginManager: PluginManager) {
 
-    pluginManager.jexl.addFunction('linkout', (type: string[], url: string[], feature: any)=> {
-      
-      
+    pluginManager.jexl.addFunction('linkout', (type: string[], url: string[], feature: any)=> { 
       if (!feature.dbxref) {
         return ''
-      }
-      
+      }  
       const dbxrefs = Array.isArray(feature.dbxref)
         ? feature.dbxref
         : [feature.dbxref]
@@ -57,10 +54,8 @@ export default class TestPlugin extends Plugin {
       return dbxref
       }
       })
-
     })
-   
-
+    
     if (isAbstractMenuManager(pluginManager.rootModel)) {
       pluginManager.rootModel.appendToMenu('Add', {
         label: 'Hello View',
