@@ -41,9 +41,9 @@ export default class TestPlugin extends Plugin {
 
       return dbxrefs.map((dbxref: any) => {
       let i = 0
-      while( i < type.length){
+      while( i < type.length ){
         let j = 0 
-        while( j < type.length){
+        while( j < type.length ){
           if (dbxref.startsWith(type[j])) {
             const ref = dbxref.replace(type[j], '')
             return `<a href=${url[j]}${ref}>${dbxref}</a>` 
@@ -55,7 +55,7 @@ export default class TestPlugin extends Plugin {
       }
       })
     })
-    
+
     if (isAbstractMenuManager(pluginManager.rootModel)) {
       pluginManager.rootModel.appendToMenu('Add', {
         label: 'Hello View',
