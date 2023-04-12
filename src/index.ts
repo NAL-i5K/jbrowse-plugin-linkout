@@ -31,7 +31,7 @@ export default class TestPlugin extends Plugin {
   
   configure(pluginManager: PluginManager) {
 
-    pluginManager.jexl.addFunction('linkout', (type: string[], url: string[], feature: any)=> { 
+    pluginManager.jexl.addFunction('linkout', (input: string[][], feature: any)=> { 
       if (!feature.dbxref) {
         return ''
       }  
@@ -41,12 +41,12 @@ export default class TestPlugin extends Plugin {
 
       return dbxrefs.map((dbxref: any) => {
       let i = 0
-      while( i < type.length ){
+      while( i < input.length ){
         let j = 0 
-        while( j < type.length ){
-          if (dbxref.startsWith(type[j])) {
-            const ref = dbxref.replace(type[j], '')
-            return `<a href=${url[j]}${ref}>${dbxref}</a>` 
+        while( j < input.length ){
+          if (dbxref.startsWith(input[j][0])) {
+            const ref = dbxref.replace(input[j][0], '')
+            return `<a href=${input[j][1]}${ref}>${dbxref}</a>` 
           }
           j = j + 1
         }
