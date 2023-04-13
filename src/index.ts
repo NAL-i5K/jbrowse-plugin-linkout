@@ -31,28 +31,21 @@ export default class TestPlugin extends Plugin {
   
   configure(pluginManager: PluginManager) {
 
-    pluginManager.jexl.addFunction('linkout', (input: string[][], feature: any)=> { 
-      if (!feature.dbxref) {
+    // Add a new function called 'linkout' to the plugin manager's Jexl engine
+    pluginManager.jexl.addFunction('linkout', (dict: Record<string, string>, feature: { dbxref: any }) => {
+      if (!feature.dbxref) {  // If the feature has no dbxref, return an empty string
         return ''
-      }  
-      const dbxrefs = Array.isArray(feature.dbxref)
+      }
+      
+      const dbxrefs = Array.isArray(feature.dbxref)  // Convert the dbxref(s) to an array, if necessary
         ? feature.dbxref
         : [feature.dbxref]
 
-      return dbxrefs.map((dbxref: any) => {
-      let i = 0
-      while( i < input.length ){
-        let j = 0 
-        while( j < input.length ){
-          if (dbxref.startsWith(input[j][0])) {
-            const ref = dbxref.replace(input[j][0], '')
-            return `<a href=${input[j][1]}${ref}>${dbxref}</a>` 
-          }
-          j = j + 1
-        }
-        i = i + 1
-      return dbxref
-      }
+      // Map over the array of dbxrefs and create an HTML link for each one, using the root and content of the dbxref
+      return dbxrefs.map(dbxref => {
+        const [root, content] = dbxref.split(':')
+        const link = dict[root]  // Look up the link URL in the dictionary using the root of the dbxref
+        return link ? `<a href=${link}${content}>${dbxref}</a>` : dbxref  // If a link URL is found, create a link; otherwise, just return the dbxref
       })
     })
 
