@@ -11,7 +11,6 @@ import { getSession } from '@jbrowse/core/util'
 import { string } from 'mobx-state-tree/dist/internal'
 import console from 'console'
 
-
 export default class TestPlugin extends Plugin {
   name = "Linkout"
   version = version
@@ -26,11 +25,7 @@ export default class TestPlugin extends Plugin {
     })
   }
 
-
-  
-  
   configure(pluginManager: PluginManager) {
-
     // Add a new function called 'linkout' to the plugin manager's Jexl engine
     pluginManager.jexl.addFunction('linkout', (dict: Record<string, string>, feature: { dbxref: any }) => {
       if (!feature.dbxref) {  // If the feature has no dbxref, return an empty string
@@ -58,5 +53,4 @@ export default class TestPlugin extends Plugin {
       })
     }
   }
-
 }
