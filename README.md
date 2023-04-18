@@ -22,7 +22,7 @@
 }
 ```
 
-2. Add to the "formatDetails" of your JBrowse Web config in "tracks":
+2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:
 
 ```json
 "tracks": [
@@ -37,18 +37,9 @@
 
 #### Using in JBrowse 2 Desktop
 
-Add to the "plugins" of your JBrowse Web config:
+1. Click "TOOLS" >> "Plugin store":
 
-```json
-{
-  "plugins": [
-    {
-      "name": "Linkout",
-      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
-    }
-  ]
-}
-```
+![](img/plugin_store_1.png)
 
 
 
