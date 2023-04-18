@@ -48,8 +48,8 @@
 3. Type "Plugin name" & "Plugin URL":
 
 ```json
-  Plugin name: "Linkout",
-  Plugin URL: "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+  "Plugin name": "Linkout",
+  "Plugin URL": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
 ```
 
 ![](img/plugin_store_3.png)
