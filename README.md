@@ -28,8 +28,8 @@
 "tracks": [
     {
       "formatDetails": {
-        "feature": "jexl: {dbxref:linkout({type_name_1: url_1}, feature)}",
-        "subfeatures": "jexl: {dbxref:linkout({type_name_2: url_2, type_name_3: url_3}, feature)}"
+        "feature": "jexl: {dbxref:linkout({type_name_1: linkout_url_1}, feature)}",
+        "subfeatures": "jexl: {dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}"
       }
     }
   ]
