@@ -47,10 +47,10 @@
 
 3. Type "Plugin name" & "Plugin URL":
 
-```json
+```python
 Linkout
 ```
-```json
+```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.
 ```
 
