@@ -24,7 +24,7 @@ Add to the "plugins" of your JBrowse Web config:
 
 #### Using in JBrowse 2 Desktop
 
-Add to the "plugins" of your JBrowse Web config:
+1. Add to the "plugins" of your JBrowse Web config:
 
 ```json
 {
@@ -36,6 +36,20 @@ Add to the "plugins" of your JBrowse Web config:
   ]
 }
 ```
+
+2. Add to the "formatDetails" of your JBrowse Web config in "tracks":
+
+```json
+"tracks": [
+    {
+      "formatDetails": {
+        "feature": "jexl: {dbxref:linkout({type_name_1: url_1}, feature)}",
+        "subfeatures": "jexl: {dbxref:linkout({type_name_2: url_2, type_name_3: url_3}, feature)}"
+      }
+    }
+  ]
+```
+
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
 
