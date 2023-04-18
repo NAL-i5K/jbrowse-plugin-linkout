@@ -7,18 +7,7 @@
 
 ## Usage
 
-### In [JBrowse Web](https://jbrowse.org/jb2/docs/quickstart_web)
-
-#### Development
-
-```
-git clone https://github.com/Chi-HsienChang/jbrowse-plugin-linkout.git
-cd jbrowse-plugin-linkout
-yarn
-yarn start
-```
-
-#### Production
+#### Using in JBrowse 2 Web
 
 Add to the "plugins" of your JBrowse Web config:
 
@@ -33,7 +22,20 @@ Add to the "plugins" of your JBrowse Web config:
 }
 ```
 
+#### Using in JBrowse 2 Desktop
 
+Add to the "plugins" of your JBrowse Web config:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "Linkout",
+      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+    }
+  ]
+}
+```
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
 
