@@ -37,7 +37,7 @@
 
 #### Using in JBrowse 2 Desktop
 
-1. Click "TOOLS" -> "Plugin store":
+1. Click "TOOLS" &rarr; "Plugin store":
 
 ![](img/plugin_store_1.png)
 
