@@ -55,7 +55,9 @@ Linkout
 ```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
+After that, you can see the Linkout in "Installed plugins"
 
+![](img/plugin_store_4.png)
 
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
