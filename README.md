@@ -41,7 +41,18 @@
 
 ![](img/plugin_store_1.png)
 
+2. Click "ADD CUSTOM PLUGIN":
 
+![](img/plugin_store_2.png)
+
+3. Type "Plugin name" & "Plugin URL":
+
+```json
+  "Plugin name": "Linkout",
+  "Plugin URL": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+```
+
+![](img/plugin_store_3.png)
 
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
