@@ -9,7 +9,7 @@
 
 ### Using in JBrowse 2 Web
 
-`1. Add to the "plugins" of your JBrowse Web config:`
+1. Add to the "plugins" of your JBrowse Web config:
 
 ```json
 {
@@ -22,7 +22,7 @@
 }
 ```
 
-`2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:`
+2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:
 
 ```json
 "tracks": [
@@ -37,15 +37,15 @@
 
 #### Using in JBrowse 2 Desktop
 
-`1. Click "TOOLS" &rarr; "Plugin store":`
+1. Click "TOOLS" &rarr; "Plugin store":
 
 ![](img/plugin_store_1.png)
 
-`2. Click "ADD CUSTOM PLUGIN":`
+2. Click "ADD CUSTOM PLUGIN":
 
 ![](img/plugin_store_2.png)
 
-`3. Type "Plugin name" & "Plugin URL":`
+3. Type "Plugin name" & "Plugin URL":
 
 ![](img/plugin_store_3.png)
 
@@ -53,7 +53,7 @@
 Linkout
 ```
 ```python
-https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.
+https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
 
 
