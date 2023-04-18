@@ -59,15 +59,31 @@ After that, you can see the Linkout in "Installed plugins"
 
 ![](img/plugin_store_4.png)
 
+4. Click "Settingd" &rarr; go to "formatDetails" region:
+
 ![](img/plugin_store_5.png)
 
 ![](img/plugin_store_6.png)
 
+After that, the circle will change to an "X" after clicking it.
+
 ![](img/plugin_store_7.png)
+
+5. Type "Plugin name" & "Plugin URL":
 
 ![](img/plugin_store_8.png)
 
+
+
 ![](img/plugin_store_9.png)
+
+```json
+{dbxref:linkout({type_name_1: linkout_url_1}, feature)}
+```
+
+```json
+{dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}
+```
 
 ![](img/plugin_store_10.png)
 
