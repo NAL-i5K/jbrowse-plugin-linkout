@@ -3,80 +3,37 @@
 # jbrowse-plugin-linkout
 
 > The plugin that automatically adds link outs to the national center for biotechnology information
-(NCBI) feature page if a feature has NCBI ids on JBrowse, a new kind of genome browser that runs on the
-web, desktop.
+(NCBI) feature page if a feature has NCBI ids on JBrowse.
 
 ## Usage
 
-You can use this template to create a new GitHub repository or a new local
-project.
+### In [JBrowse Web](https://jbrowse.org/jb2/docs/quickstart_web)
 
-### Software requirements
+#### Development
 
-- [git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/en/download/) (version 10 or greater)
-- [yarn](https://yarnpkg.com/en/docs/install) (or npm which comes with Node.js)
-- [JBrowse 2](https://github.com/gmod/jbrowse-components) (version 2.0 or greater)
-
-### Create a new project from this template
-
-You can click the "Use this template" button in the repository (instructions
-[here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)):
-
-![screenshot showing where "Use this template" button is in the GitHub repository page](https://user-images.githubusercontent.com/25592344/102671843-eb8ae380-414c-11eb-84e5-6ebf10bd89f9.png)
-
-Or you can use the GitHub CLI:
-
-```console
-$ gh repo create jbrowse-plugin-my-project --template https://github.com/GMOD/jbrowse-plugin-template.git
+```
+git clone https://github.com/Chi-HsienChang/jbrowse-plugin-linkout.git
+cd jbrowse-plugin-linkout
+yarn
+yarn start
 ```
 
-Or you can start a plugin locally:
+#### Production
 
-```console
-$ git clone https://github.com/GMOD/jbrowse-plugin-template.git jbrowse-plugin-my-project
-$ cd jbrowse-plugin-my-project
-$ rm -rf .git
-$ # If you want to use Git, re-initialize it
-$ git init
+Add to the "plugins" of your JBrowse Web config:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "Linkout",
+      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+    }
+  ]
+}
 ```
 
-## Getting started
 
-### Setup
-
-Run `yarn init` (or `npm init`) and answer the prompts to fill out the
-information for your plugin
-
-- Make sure you at least enter a "name" (probably starting with
-  "jbrowse-plugin-", or "@myscope/jbrowse-plugin-" if you're going to publish to
-  an NPM organization)
-- Other fields may be left blank
-- leave the "entry point" as `dist/index.js`
-
-Now run `yarn` (or `rm yarn.lock && npm install` to use npm instead of yarn) to install the necessary dependencies.
-
-After this, run `yarn setup` (or `npm run setup`).
-This configures your project, and adds a build of JBrowse 2 that can be used to test your plugin during development.
-
-### Build
-
-```console
-$ yarn build ## or `npm run build`
-```
-
-### Development
-
-To develop against JBrowse Web:
-
-- Start a development version of JBrowse Web (see
-  [here](https://github.com/GMOD/jbrowse-components/blob/master/CONTRIBUTING.md))
-- In this project, run `yarn start` (or `npm run start`)
-- Assuming JBrowse Web is being served on port 3000, navigate in your web
-  browser to
-  http://localhost:3000/?config=http://localhost:9000/jbrowse_config.json
-- When you make changes to your plugin, it will automatically be re-built.
-  You can then refresh JBrowse Web to see the changes.
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
 
@@ -90,30 +47,6 @@ Launches your local JBrowse 2 build that is used for integration testing, with y
 plugin already included in the configuration. Your plugin must also be running
 (`yarn start` or `npm run start`).
 
-#### `yarn test` or `npm test`
-
-Runs any unit tests defined during plugin development.
-
-#### `yarn cypress:run` or `npm run cypress:run`
-
-Runs the [cypress](https://www.cypress.io/) integration tests for your plugin.
-Both the plugin and `browse` must already be running.
-
-#### `yarn test:e2e` or `npm run test:e2e`
-
-Starts up the JBrowse 2 build as well as your plugin, and runs the [cypress](https://www.cypress.io/)
-integration tests against them. Closes both resources after tests finish.
-
-#### `yarn cypress` or `npm run cypress`
-
-Launches the [cypress](https://www.cypress.io/) test runner, which can be very
-useful for writing integration tests for your plugin. Both the plugin and `browse`
-must already be running.
-
-#### Github Action
-
-This template includes a [Github action](https://github.com/features/actions) that
-runs your integration tests when you push new changes to your repository.
 
 ### Publishing
 
