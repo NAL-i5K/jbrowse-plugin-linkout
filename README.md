@@ -2,7 +2,9 @@
 
 # jbrowse-plugin-linkout
 
-> Template to quickly start a new JBrowse plugin
+> The plugin that automatically adds link outs to the national center for biotechnology information
+(NCBI) feature page if a feature has NCBI ids on JBrowse, a new kind of genome browser that runs on the
+web, desktop.
 
 ## Usage
 
