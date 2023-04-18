@@ -9,21 +9,6 @@
 
 #### Using in JBrowse 2 Web
 
-Add to the "plugins" of your JBrowse Web config:
-
-```json
-{
-  "plugins": [
-    {
-      "name": "Linkout",
-      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
-    }
-  ]
-}
-```
-
-#### Using in JBrowse 2 Desktop
-
 1. Add to the "plugins" of your JBrowse Web config:
 
 ```json
@@ -49,6 +34,23 @@ Add to the "plugins" of your JBrowse Web config:
     }
   ]
 ```
+
+#### Using in JBrowse 2 Desktop
+
+Add to the "plugins" of your JBrowse Web config:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "Linkout",
+      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+    }
+  ]
+}
+```
+
+
 
 
 **Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
