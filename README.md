@@ -39,7 +39,7 @@
 
 1. Click "TOOLS" &rarr; "Plugin store":
 
-![](img/plugin_store_1.png width="300")
+![](img/plugin_store_1.png)
 
 2. Click "ADD CUSTOM PLUGIN":
 
