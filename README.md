@@ -59,48 +59,15 @@ After that, you can see the Linkout in "Installed plugins"
 
 ![](img/plugin_store_4.png)
 
+![](img/plugin_store_5.png)
 
-**Note:** The current version of `jbrowse-plugin-template` is only compatible with "JBrowse 2" v2.0 or greater. If you are developing for a version of "JBrowse 2" v1.x, please consider upgrading, or you will have to manually downgrade the package dependencies in this template to ensure compatibility.
+![](img/plugin_store_6.png)
 
-### Testing
+![](img/plugin_store_7.png)
 
-To test your plugin, there are several commands available:
+![](img/plugin_store_8.png)
 
-#### `yarn browse` or `npm run browse`
+![](img/plugin_store_9.png)
 
-Launches your local JBrowse 2 build that is used for integration testing, with your
-plugin already included in the configuration. Your plugin must also be running
-(`yarn start` or `npm run start`).
+![](img/plugin_store_10.png)
 
-
-### Publishing
-
-Once you have developed your plugin, you can publish it to NPM. Remember to
-remove `"private": true` from `package.json` before doing so.
-
-If you are using `@jbrowse/react-linear-genome-view`, you can install the plugin
-from NPM and use it there. If you are using JBrowse Web, after the plugin is
-published to NPM, you can use [unpkg](https://unpkg.com/) to host plugin bundle.
-A JBrowse Web config using this plugin would look like this:
-
-```json
-{
-  "plugins": [
-    {
-      "name": "Linkout",
-      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
-    }
-  ]
-}
-```
-
-You can also use a specific version in unpkg, such as
-`https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js`
-
-### TypeScript vs. JavaScript
-
-This template is set up in such a way that you can use both TypeScript and
-JavaScript for development. If using only JavaScript, you can change
-`src/index.ts` to `src/index.js`. If using only TypeScript, you can remove
-`"allowJs": true` from `tsconfig.json` and `"@babel/preset-react"` from
-`.babelrc` (and from "devDependencies" in `package.json`).
