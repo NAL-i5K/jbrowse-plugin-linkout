@@ -18,10 +18,11 @@
 ![](img/plugin_store_2.png)
 
 **3. Type "Plugin name" & "Plugin URL":**
-
+- Plugin name
 ```python
 Linkout
 ```
+- Plugin URL
 ```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
