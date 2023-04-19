@@ -48,11 +48,11 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 **6. Scroll right and you will see circles `O`:**
 
-<img src="img/plugin_store_7.png" width="500">
+<img src="img/plugin_store_7.png" width="300">
 
 **7. After clicking the cycle, the circle will change to an `X`:**
 
-<img src="img/plugin_store_8.png" width="900">
+<img src="img/plugin_store_8.png" width="300">
 
 **8. Type the setting of the feature or subfeatures based on your needs**
 
@@ -78,7 +78,7 @@ The format is as follows:
 > The plugin that automatically adds link outs to the national center for biotechnology information
 (NCBI) feature page if a feature has NCBI ids on JBrowse.
 
-<img src="img/plugin_store_10.png" width="300">
+<img src="img/plugin_store_10.png" width="500">
 
 - feature
 ```python
@@ -90,7 +90,7 @@ The format is as follows:
 ```
 
 **You can click the `GeneID:126871197` or `Genbnak:XR_007691556.1` in `dexref` on the right:**
-<img src="img/plugin_store_11.png" width="300">
+<img src="img/plugin_store_11.png" width="800">
 
 
 ### Using in JBrowse 2 Web
