@@ -17,7 +17,7 @@ For example, the plugin can automatically add link outs to the national center f
 
 ![](img/plugin_store_2.png)
 
-**3. Type "Plugin name" & "Plugin URL":**
+**3. Type "Plugin name" & "Plugin URL" &rarr; click "SUBMIT":**
 - Plugin name
 ```python
 Linkout
