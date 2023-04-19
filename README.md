@@ -33,17 +33,20 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 ![](img/plugin_store_4.png)
 
-**4. Click on the icon with three dots on the right &rarr; "Setting" &rarr; go to "formatDetails" region in FeatureTrack settings :**
+**4. Click on the icon with three dots on the right &rarr; "Setting":**
 
 ![](img/plugin_store_5.png)
 
+
+**5. Go to "formatDetails" in FeatureTrack settings in the block on the right:**
+
 ![](img/plugin_store_6.png)
 
-**After that, the circle will change to an "X" after clicking it.**
+
+**6. Scroll right and you will see a circle. After clicking the cycle, the circle will change to an "X":**
 
 ![](img/plugin_store_7.png)
 
-**5. Type "Plugin name" & "Plugin URL":**
 
 ![](img/plugin_store_8.png)
 
