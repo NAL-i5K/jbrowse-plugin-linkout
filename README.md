@@ -9,15 +9,15 @@ For example, the plugin can automatically add link outs to the national center f
 
 ### Using in JBrowse 2 Desktop
 
-**1. Click "TOOLS" &rarr; "Plugin store":**
+**1. Click `TOOLS` &rarr; `Plugin store`:**
 
 ![](img/plugin_store_1.png)
 
-**2. Click "ADD CUSTOM PLUGIN":**
+**2. Click `ADD CUSTOM PLUGIN`:**
 
 ![](img/plugin_store_2.png)
 
-**3. Type "Plugin name" & "Plugin URL" &rarr; click "SUBMIT":**
+**3. Type `Plugin name` & `Plugin URL` &rarr; click `SUBMIT`:**
 
 ![](img/plugin_store_3.png)
 
@@ -32,16 +32,16 @@ Linkout
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
 
-**After that, you can see the Linkout in "Installed plugins"**
+**After that, you can see the Linkout in `Installed plugins`**
 
 ![](img/plugin_store_4.png)
 
-**4. Click on the icon with three dots on the right &rarr; click "Setting":**
+**4. Click on the icon with three dots on the right &rarr; click `Setting`:**
 
 ![](img/plugin_store_5.png)
 
 
-**5. Go to "formatDetails" in FeatureTrack settings in the block on the right:**
+**5. Go to `formatDetails` in FeatureTrack settings in the block on the right:**
 
 ![](img/plugin_store_6.png)
 
@@ -50,7 +50,7 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 ![](img/plugin_store_7.png)
 
-**7. After clicking the cycle, the circle will change to an "X":**
+**7. After clicking the cycle, the circle will change to an `X`:**
 
 ![](img/plugin_store_8.png)
 
@@ -89,13 +89,13 @@ The format is as follows:
 {dbxref:linkout({GeneID: 'https://www.ncbi.nlm.nih.gov/gene/', Genbank: 'https://www.ncbi.nlm.nih.gov/nuccore/'}, feature)}
 ```
 
-**You can click the "GeneID:126871197" in `dexref` on the right:**
+**You can click the `GeneID:126871197` or `Genbnak:XR_007691556.1` in `dexref` on the right:**
 ![](img/plugin_store_11.png)
 
 
 ### Using in JBrowse 2 Web
 
-**1. Add to the "plugins" of your JBrowse Web config:**
+**1. Add to the `plugins` of your JBrowse Web config:**
 
 ```json
 {
@@ -108,7 +108,7 @@ The format is as follows:
 }
 ```
 
-**2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:**
+**2. Add to the `formatDetails` in `tracks` of your JBrowse Web config:**
 
 ```json
 "tracks": [
