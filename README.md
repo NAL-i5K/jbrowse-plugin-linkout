@@ -43,22 +43,34 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 ![](img/plugin_store_6.png)
 
 
-**6. Scroll right and you will see a circle. After clicking the cycle, the circle will change to an "X":**
+**6. Scroll right and you will see a circle:**
 
 ![](img/plugin_store_7.png)
 
+**7. After clicking the cycle, the circle will change to an "X":**
 
 ![](img/plugin_store_8.png)
 
+**8. Type the setting of the feature or subfeatures based on your needs**
+
+The format is as follows:
+
+- feature
+```python
+{dbxref:linkout({type_name_1: linkout_url_1, type_name_2: linkout_url_2}, feature)}
+```
+- subfeatures
+```python
+{dbxref:linkout({type_name_3: linkout_url_3, type_name_4: linkout_url_4}, feature)}
+```
+
+**Congratulations! You have completed it**
+
+> The plugin that automatically adds link outs to the national center for biotechnology information
+(NCBI) feature page if a feature has NCBI ids on JBrowse.
+
+
 ![](img/plugin_store_9.png)
-
-```python
-{dbxref:linkout({type_name_1: linkout_url_1}, feature)}
-```
-
-```python
-{dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}
-```
 
 ![](img/plugin_store_10.png)
 
