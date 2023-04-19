@@ -7,34 +7,6 @@
 
 ## Usage
 
-### Using in JBrowse 2 Web
-
-1. Add to the "plugins" of your JBrowse Web config:
-
-```json
-{
-  "plugins": [
-    {
-      "name": "Linkout",
-      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
-    }
-  ]
-}
-```
-
-2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:
-
-```json
-"tracks": [
-    {
-      "formatDetails": {
-        "feature": "jexl: {dbxref:linkout({type_name_1: linkout_url_1}, feature)}",
-        "subfeatures": "jexl: {dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}"
-      }
-    }
-  ]
-```
-
 #### Using in JBrowse 2 Desktop
 
 1. Click "TOOLS" &rarr; "Plugin store":
@@ -86,4 +58,33 @@ After that, the circle will change to an "X" after clicking it.
 ```
 
 ![](img/plugin_store_10.png)
+
+
+### Using in JBrowse 2 Web
+
+1. Add to the "plugins" of your JBrowse Web config:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "Linkout",
+      "url": "https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js"
+    }
+  ]
+}
+```
+
+2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:
+
+```json
+"tracks": [
+    {
+      "formatDetails": {
+        "feature": "jexl: {dbxref:linkout({type_name_1: linkout_url_1}, feature)}",
+        "subfeatures": "jexl: {dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}"
+      }
+    }
+  ]
+```
 
