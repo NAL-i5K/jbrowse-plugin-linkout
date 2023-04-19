@@ -21,7 +21,7 @@ For example, the plugin can automatically add link outs to the national center f
 
 ![](img/plugin_store_3.png)
 
-You can copy it:
+**You can copy it here:**
 
 - Plugin name
 ```python
@@ -67,7 +67,8 @@ The format is as follows:
 {dbxref:linkout({type_name_3: linkout_url_3, type_name_4: linkout_url_4}, feature)}
 ```
 
-Like this:
+**Like this:**
+
 ![](img/plugin_store_9.png)
 
 #### Congratulations! You complete it*!
