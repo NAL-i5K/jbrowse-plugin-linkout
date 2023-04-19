@@ -41,18 +41,18 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 <img src="img/plugin_store_5.png" width="300">
 
 
-**5. Go to `formatDetails` in FeatureTrack settings in the block on the right:**
+**5. Go to `formatDetails` in `FeatureTrack settings` in the block on the right:**
 
 <img src="img/plugin_store_6.png" width="300">
 
 
-**6. Scroll right and you will see a circle `O`:**
+**6. Scroll right and you will see circles `O`:**
 
-<img src="img/plugin_store_7.png" width="300">
+<img src="img/plugin_store_7.png" width="500">
 
 **7. After clicking the cycle, the circle will change to an `X`:**
 
-<img src="img/plugin_store_8.png" width="300">
+<img src="img/plugin_store_8.png" width="900">
 
 **8. Type the setting of the feature or subfeatures based on your needs**
 
