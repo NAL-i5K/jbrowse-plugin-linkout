@@ -71,7 +71,7 @@ The format is as follows:
 
 ![](img/plugin_store_9.png)
 
-#### Congratulations! You complete it*!
+#### Congratulations! You complete it!
 
 ### For example:
 
