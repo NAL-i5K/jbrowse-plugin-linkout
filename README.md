@@ -32,7 +32,7 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 ![](img/plugin_store_4.png)
 
-**4. Click "Settingd" &rarr; go to "formatDetails" region:**
+**4. Click on the icon with three dots on the right &rarr; "Setting" &rarr; go to "formatDetails" region in FeatureTrack settings :**
 
 ![](img/plugin_store_5.png)
 
