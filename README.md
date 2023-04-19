@@ -18,6 +18,11 @@ For example, the plugin can automatically add link outs to the national center f
 ![](img/plugin_store_2.png)
 
 **3. Type "Plugin name" & "Plugin URL" &rarr; click "SUBMIT":**
+
+![](img/plugin_store_3.png)
+
+You can copy it:
+
 - Plugin name
 ```python
 Linkout
@@ -26,8 +31,6 @@ Linkout
 ```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
-
-![](img/plugin_store_3.png)
 
 **After that, you can see the Linkout in "Installed plugins"**
 
@@ -63,6 +66,8 @@ The format is as follows:
 ```python
 {dbxref:linkout({type_name_3: linkout_url_3, type_name_4: linkout_url_4}, feature)}
 ```
+
+Like this:
 ![](img/plugin_store_9.png)
 
 #### Congratulations! You complete it*!
