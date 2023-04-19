@@ -19,7 +19,7 @@ For example, the plugin can automatically add link outs to the national center f
 
 **3. Type `Plugin name` & `Plugin URL` &rarr; click `SUBMIT`:**
 
-<img src="img/plugin_store_3.png" width="300">
+<img src="img/plugin_store_3.png" width="500">
 
 **You can copy it here:**
 
