@@ -9,15 +9,15 @@
 
 #### Using in JBrowse 2 Desktop
 
-1. Click "TOOLS" &rarr; "Plugin store":
+**1. Click "TOOLS" &rarr; "Plugin store":**
 
 ![](img/plugin_store_1.png)
 
-2. Click "ADD CUSTOM PLUGIN":
+**2. Click "ADD CUSTOM PLUGIN":**
 
 ![](img/plugin_store_2.png)
 
-3. Type "Plugin name" & "Plugin URL":
+**3. Type "Plugin name" & "Plugin URL":**
 
 ![](img/plugin_store_3.png)
 
@@ -27,25 +27,23 @@ Linkout
 ```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
-After that, you can see the Linkout in "Installed plugins"
+**After that, you can see the Linkout in "Installed plugins"**
 
 ![](img/plugin_store_4.png)
 
-4. Click "Settingd" &rarr; go to "formatDetails" region:
+**4. Click "Settingd" &rarr; go to "formatDetails" region:**
 
 ![](img/plugin_store_5.png)
 
 ![](img/plugin_store_6.png)
 
-After that, the circle will change to an "X" after clicking it.
+**After that, the circle will change to an "X" after clicking it.**
 
 ![](img/plugin_store_7.png)
 
-5. Type "Plugin name" & "Plugin URL":
+**5. Type "Plugin name" & "Plugin URL":**
 
 ![](img/plugin_store_8.png)
-
-
 
 ![](img/plugin_store_9.png)
 
@@ -62,7 +60,7 @@ After that, the circle will change to an "X" after clicking it.
 
 ### Using in JBrowse 2 Web
 
-1. Add to the "plugins" of your JBrowse Web config:
+**1. Add to the "plugins" of your JBrowse Web config:**
 
 ```json
 {
@@ -75,7 +73,7 @@ After that, the circle will change to an "X" after clicking it.
 }
 ```
 
-2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:
+**2. Add to the "formatDetails" in "tracks" of your JBrowse Web config:**
 
 ```json
 "tracks": [
