@@ -36,7 +36,7 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 ![](img/plugin_store_4.png)
 
-**4. Click on the icon with three dots on the right &rarr; click `Setting`:**
+**4. Click on `the icon with three dots` on the right &rarr; click `Setting`:**
 
 ![](img/plugin_store_5.png)
 
@@ -46,7 +46,7 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 ![](img/plugin_store_6.png)
 
 
-**6. Scroll right and you will see a circle:**
+**6. Scroll right and you will see a circle `O`:**
 
 ![](img/plugin_store_7.png)
 
