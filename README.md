@@ -11,16 +11,15 @@ For example, the plugin can automatically add link outs to the national center f
 
 **1. Click `TOOLS` &rarr; `Plugin store`:**
 
-<!-- ![](img/plugin_store_1.png) -->
-<img src="img/plugin_store_8.png" width="300">
+<img src="img/plugin_store_1.png" width="300">
 
 **2. Click `ADD CUSTOM PLUGIN`:**
 
-![](img/plugin_store_2.png)
+<img src="img/plugin_store_2.png" width="300">
 
 **3. Type `Plugin name` & `Plugin URL` &rarr; click `SUBMIT`:**
 
-![](img/plugin_store_3.png)
+<img src="img/plugin_store_3.png" width="300">
 
 **You can copy it here:**
 
@@ -35,25 +34,25 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 **After that, you can see the Linkout in `Installed plugins`**
 
-![](img/plugin_store_4.png)
+<img src="img/plugin_store_4.png" width="300">
 
 **4. Click on `the icon with three dots` on the right &rarr; click `Setting`:**
 
-![](img/plugin_store_5.png)
+<img src="img/plugin_store_5.png" width="300">
 
 
 **5. Go to `formatDetails` in FeatureTrack settings in the block on the right:**
 
-![](img/plugin_store_6.png)
+<img src="img/plugin_store_6.png" width="300">
 
 
 **6. Scroll right and you will see a circle `O`:**
 
-![](img/plugin_store_7.png)
+<img src="img/plugin_store_7.png" width="300">
 
 **7. After clicking the cycle, the circle will change to an `X`:**
 
-![](img/plugin_store_8.png)
+<img src="img/plugin_store_8.png" width="300">
 
 **8. Type the setting of the feature or subfeatures based on your needs**
 
@@ -70,7 +69,7 @@ The format is as follows:
 
 **Like this:**
 
-![](img/plugin_store_9.png)
+<img src="img/plugin_store_9.png" width="300">
 
 #### Congratulations! You complete it!
 
@@ -79,7 +78,7 @@ The format is as follows:
 > The plugin that automatically adds link outs to the national center for biotechnology information
 (NCBI) feature page if a feature has NCBI ids on JBrowse.
 
-![](img/plugin_store_10.png)
+<img src="img/plugin_store_10.png" width="300">
 
 - feature
 ```python
@@ -91,7 +90,7 @@ The format is as follows:
 ```
 
 **You can click the `GeneID:126871197` or `Genbnak:XR_007691556.1` in `dexref` on the right:**
-![](img/plugin_store_11.png)
+<img src="img/plugin_store_11.png" width="300">
 
 
 ### Using in JBrowse 2 Web
