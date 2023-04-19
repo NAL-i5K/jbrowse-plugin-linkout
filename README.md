@@ -78,9 +78,18 @@ The format is as follows:
 > The plugin that automatically adds link outs to the national center for biotechnology information
 (NCBI) feature page if a feature has NCBI ids on JBrowse.
 
-
 ![](img/plugin_store_10.png)
 
+- feature
+```python
+{dbxref:linkout({GeneID: 'https://www.ncbi.nlm.nih.gov/gene/'}, feature)}
+```
+- subfeatures
+```python
+{dbxref:linkout({GeneID: 'https://www.ncbi.nlm.nih.gov/gene/', Genbank: 'https://www.ncbi.nlm.nih.gov/nuccore/'}, feature)}
+```
+
+**You can click the "GeneID:126871197" in `dexref` on the right:**
 ![](img/plugin_store_11.png)
 
 
