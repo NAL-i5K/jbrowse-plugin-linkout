@@ -33,7 +33,7 @@ https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.product
 
 ![](img/plugin_store_4.png)
 
-**4. Click on the icon with three dots on the right &rarr; "Setting":**
+**4. Click on the icon with three dots on the right &rarr; click "Setting":**
 
 ![](img/plugin_store_5.png)
 
@@ -63,16 +63,19 @@ The format is as follows:
 ```python
 {dbxref:linkout({type_name_3: linkout_url_3, type_name_4: linkout_url_4}, feature)}
 ```
+![](img/plugin_store_9.png)
 
-**Congratulations! You have completed it**
+#### Congratulations! You complete it*!
+
+### For example:
 
 > The plugin that automatically adds link outs to the national center for biotechnology information
 (NCBI) feature page if a feature has NCBI ids on JBrowse.
 
 
-![](img/plugin_store_9.png)
-
 ![](img/plugin_store_10.png)
+
+![](img/plugin_store_11.png)
 
 
 ### Using in JBrowse 2 Web
