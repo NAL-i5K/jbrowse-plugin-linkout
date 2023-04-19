@@ -12,7 +12,7 @@ For example, the plugin can automatically add link outs to the national center f
 **1. Click `TOOLS` &rarr; `Plugin store`:**
 
 <!-- ![](img/plugin_store_1.png) -->
-<img src="img/plugin_store_8.png" width="500">
+<img src="img/plugin_store_8.png" width="300">
 
 **2. Click `ADD CUSTOM PLUGIN`:**
 
