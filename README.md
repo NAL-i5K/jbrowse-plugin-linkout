@@ -77,11 +77,11 @@ After that, the circle will change to an "X" after clicking it.
 
 ![](img/plugin_store_9.png)
 
-```json
+```python
 {dbxref:linkout({type_name_1: linkout_url_1}, feature)}
 ```
 
-```json
+```python
 {dbxref:linkout({type_name_2: linkout_url_2, type_name_3: linkout_url_3}, feature)}
 ```
 
