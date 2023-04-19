@@ -19,14 +19,15 @@
 
 **3. Type "Plugin name" & "Plugin URL":**
 
-![](img/plugin_store_3.png)
-
 ```python
 Linkout
 ```
 ```python
 https://unpkg.com/jbrowse-plugin-linkout/dist/jbrowse-plugin-linkout.umd.production.min.js
 ```
+
+![](img/plugin_store_3.png)
+
 **After that, you can see the Linkout in "Installed plugins"**
 
 ![](img/plugin_store_4.png)
