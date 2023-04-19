@@ -7,7 +7,7 @@
 
 ## Usage
 
-#### Using in JBrowse 2 Desktop
+### Using in JBrowse 2 Desktop
 
 **1. Click "TOOLS" &rarr; "Plugin store":**
 
