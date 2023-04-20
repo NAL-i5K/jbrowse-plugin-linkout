@@ -40,7 +40,7 @@ export default class TestPlugin extends Plugin {
       return dbxrefs.map(dbxref => {
         const [root, content1, content2] = dbxref.split(':')
         const link = dict[root]  // Look up the link URL in the dictionary using the root of the dbxref
-        return content2 ? `<a href=${link}${content1}:${content2}>${dbxref}</a>` : `<a href=${link}${content1}>${dbxref}</a>`  // If a link URL is found, create a link; otherwise, just return the dbxref
+        return content2 ? `<a href=${link}${content1}:${content2}>${dbxref}</a>` : `<a href=${link}${content1}>${dbxref}</a>`  
       })
     })
 
