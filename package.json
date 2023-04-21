@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "name": "jbrowse-plugin-linkout",
   "keywords": [
     "jbrowse",
@@ -119,5 +119,5 @@
   "description": "NCBI linkout",
   "repository": "https://github.com/Chi-HsienChang/jbrowse-plugin-linkout.git",
   "author": "salimachchang@gmail.com",
-  "license": "MIT"
+  "license": "Apache License 2.0"
 }
