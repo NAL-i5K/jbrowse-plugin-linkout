@@ -89,7 +89,7 @@ The format is as follows:
 {dbxref:linkout({GeneID: 'https://www.ncbi.nlm.nih.gov/gene/', Genbank: 'https://www.ncbi.nlm.nih.gov/nuccore/'}, feature)}
 ```
 
-**You can click the `GeneID:126871197` or `Genbnak:XR_007691556.1` in `dexref` on the right:**
+**You can click the `GeneID:126871197` or `Genbank:XR_007691556.1` in `dexref` on the right:**
 <img src="img/plugin_store_11.png" width="800">
 
 
