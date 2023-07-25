@@ -2,6 +2,8 @@
 
 # jbrowse-plugin-linkout
 
+Cite the code: [![DOI](https://zenodo.org/badge/620387272.svg)](https://zenodo.org/badge/latestdoi/620387272)
+
 > The plugin allows users to define where URLs combined with id to links to obtain genetic information according to their needs. 
 For example, the plugin can automatically add link outs to the national center for biotechnology information (NCBI) feature page if a feature has NCBI ids on JBrowse 2 desktop or web.
 
