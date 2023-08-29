@@ -15,8 +15,6 @@ For example, the plugin can automatically add link outs to the national center f
 
 [![vedio](./img/DEMO_video.jpg)](https://www.youtube.com/watch?v=ct7zt21TvHE)
 
-
-
 ### Using in JBrowse 2 Desktop
 
 **1. Click `TOOLS` &rarr; `Plugin store`:**
