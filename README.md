@@ -11,7 +11,7 @@ For example, the plugin can automatically add link outs to the national center f
 
 ### DEMO Video
 
-**Please click the image below to watch the DEMO video.**
+Please click the image below to watch the DEMO video.
 
 [![vedio](./img/DEMO_video.jpg)](https://www.youtube.com/watch?v=ct7zt21TvHE)
 
