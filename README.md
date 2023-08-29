@@ -8,9 +8,10 @@ For example, the plugin can automatically add link outs to the national center f
 
 ## Usage
 
-### DEMO vedio
+### DEMO
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ct7zt21TvHE?si=L0jSXpAM0LsrZo1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![vedio](./img/plugin_store_1.png)](https://www.youtube.com/watch?v=ct7zt21TvHE)
+
 
 
 ### Using in JBrowse 2 Desktop
