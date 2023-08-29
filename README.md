@@ -1,6 +1,7 @@
 ![Integration](https://github.com/Chi-HsienChang/jbrowse-plugin-linkout/workflows/Integration/badge.svg?branch=main)
 
 # jbrowse-plugin-linkout
+
 [![DOI](https://zenodo.org/badge/620387272.svg)](https://zenodo.org/badge/latestdoi/620387272)
 
 > The plugin allows users to define where URLs combined with id to links to obtain genetic information according to their needs. 
@@ -8,9 +9,11 @@ For example, the plugin can automatically add link outs to the national center f
 
 ## Usage
 
-### DEMO
+### DEMO Video
 
-[![vedio](./img/plugin_store_1.png)](https://www.youtube.com/watch?v=ct7zt21TvHE)
+**Please click the image below to watch the DEMO video.**
+
+[![vedio](./img/DEMO.JPG)](https://www.youtube.com/watch?v=ct7zt21TvHE)
 
 
 
