@@ -13,7 +13,7 @@ For example, the plugin can automatically add link outs to the national center f
 
 **Please click the image below to watch the DEMO video.**
 
-[![vedio](./img/DEMO.JPG)](https://www.youtube.com/watch?v=ct7zt21TvHE)
+[![vedio](./img/DEMO.jpg)](https://www.youtube.com/watch?v=ct7zt21TvHE)
 
 
 
