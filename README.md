@@ -8,6 +8,11 @@ For example, the plugin can automatically add link outs to the national center f
 
 ## Usage
 
+### DEMO vedio
+
+<iframe width="560" height="315" src="https://youtu.be/ct7zt21TvHE" frameborder="0" allowfullscreen></iframe>
+
+
 ### Using in JBrowse 2 Desktop
 
 **1. Click `TOOLS` &rarr; `Plugin store`:**
